@@ -11,21 +11,9 @@ const Persona = ({ id }) => {
       >
         User Research Personas
       </h2>
-      <div>
-        <div className="flex">
-          <img src={Persona1} alt="" className="h-[740px] w-full rounded-sm" />
-        </div>
-        <img
-          src={Persona2}
-          alt=""
-          className="h-[740px] w-full rounded-sm mt-7"
-        />
-        <img
-          src={Persona3}
-          alt=""
-          className="h-[740px] w-full rounded-sm mt-7"
-        />
-      </div>
+      <img src={Persona1} alt="" className="h-[700px] w-full rounded-sm" />
+      <img src={Persona2} alt="" className="h-[700px] w-full rounded-sm mt-7" />
+      <img src={Persona3} alt="" className="h-[700px] w-full rounded-sm mt-7" />
     </div>
   );
 };

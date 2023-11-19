@@ -5,7 +5,7 @@ import Intro4 from "../../../assets/imgs/intro-4.svg";
 
 function Features({ id }) {
   return (
-    <div id={id} className="flex-col mb-20 w-[1000px]">
+    <div id={id} className="mb-20 w-[1000px]">
       <h2
         className="text-2xl font-extrabold mb-7"
         style={{ fontFamily: "Hiragino Mincho Pro" }}
@@ -14,7 +14,7 @@ function Features({ id }) {
       </h2>
       <div className="flex gap-20">
         <Feature
-          title={"Group Feature"}
+          title={"Find Groups"}
           image={Intro1}
           content={
             "Join your interested groups or create your own group in Sizzle to chat with others about everything you’d like to share! "
@@ -23,10 +23,10 @@ function Features({ id }) {
           imgWidth={420}
         />
         <Feature
-          title={"Mealplan"}
+          title={"Plan Your Meals"}
           image={Intro2}
           content={
-            "Struggle to decide what you gonna eat next week? Need to have a fitness meal plan for weight loss? Meal plan feature in Sizzle can help you build a perfect plan which fits your daily routines to improve the quality of your life!"
+            "Struggle to decide what you gonna eat next week? Need to have a fitness meal plan for weight loss? Meal plan in Sizzle can help you build a perfect plan which fits your daily routines to improve the quality of your life! We also craft our recommendations based on your own interests!"
           }
           imgHeight={420}
           imgWidth={200}
@@ -34,19 +34,39 @@ function Features({ id }) {
       </div>
       <div className="flex gap-20 mt-10">
         <Feature
-          title={"Clear Category"}
+          title={"Better Searching"}
           image={Intro3}
           content={
-            "A clear and organized arrangement of ingredients can help you quickly choose a recipe based on your existing ingredients."
+            "A clear and organized arrangement of ingredients can help you quickly choose a recipe based on the chosen ingredients, search for the recipes that you can cook right away."
           }
           imgHeight={430}
           imgWidth={200}
         />
         <Feature
-          title={"Trendings"}
+          title={"Discover"}
           image={Intro4}
           content={
-            "Trending and topics section will let you know what’s the most popular related recipes over the week. follow the hot topics to enjoy Yummly food! "
+            "Trending and topics section will let you know what’s the most popular related recipes over the week in the world, follow the hot topics to enjoy yummy food! "
+          }
+          imgHeight={430}
+          imgWidth={450}
+        />
+      </div>
+      <div className="flex gap-20 mt-10">
+        <Feature
+          title={"Share Your Recipes"}
+          image={Intro3}
+          content={
+            "Create the recipes of your own, share with other users, make profits."
+          }
+          imgHeight={430}
+          imgWidth={200}
+        />
+        <Feature
+          title={"Your Own Recipe Collections"}
+          image={Intro4}
+          content={
+            "Make your own recipe books, save the recipes that you like, and share the collections with others."
           }
           imgHeight={430}
           imgWidth={450}
@@ -56,19 +76,17 @@ function Features({ id }) {
   );
 }
 
-function Feature({ title, image, content, imgHeight, imgWidth, otherStyle }) {
+function Feature({ title, image, content, imgHeight, imgWidth }) {
   return (
     <div
-      className="flex flex-col rounded-xl justify-center items-center align-middle"
+      className="flex flex-col"
       style={{
         fontFamily: "Helvetica",
       }}
     >
-      <div style={{ width: imgWidth, height: imgHeight, ...otherStyle }}>
-        <img src={image} alt="" />
-      </div>
+      <img src={image} alt="" className="h-96 w-96 mb-10" />
       <div className="w-[450px]">
-        <h2 className="text-xl font-bold leading-10 tracking-wide">{title}</h2>
+        <h2 className="text-xl font-bold mb-2">{title}</h2>
         <p className="leading-9 tracking-wide">{content}</p>
       </div>
     </div>

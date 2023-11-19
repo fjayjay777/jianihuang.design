@@ -71,7 +71,7 @@ function Point({ color, number, content }) {
     <div className="flex flex-col items-center w-[350px]">
       <Circle color={color} number={number} />
       <p
-        className="mt-8 text-lg leading-8 tracking-wide"
+        className="mt-8 text-base leading-8 tracking-wide"
         style={{ fontFamily: "Helvetica" }}
       >
         {content}

@@ -17,6 +17,7 @@ import HiFiPrototypes from "../components/hi_fi_prototypes";
 import Accessability from "../components/accessability";
 import Outro from "../components/outro";
 import Navigation from "../components/navigation";
+import CompetitorAnalysis from "../components/competitor_analysis";
 
 function SizzlePage() {
   return (
@@ -25,11 +26,12 @@ function SizzlePage() {
       <Header id={"header_section"} />
       <SelfIntro id={"self_intro_section"} />
       <ProjectBrief id={"project_brief_section"} />
-      <Features id={"features_sections"} />
       <Summary id={"summary_section"} />
       <PainPoints id={"pain_points"} />
+      <CompetitorAnalysis id={"competitor_analysis"} />
       <Persona id={"persona"} />
       <UserJourneyMap id={"user_journey_map_section"} />
+      <Features id={"features_sections"} />
       <UserFlow id={"user_flow_section"} />
       <SiteMap id={"site_map_section"} />
       <Wireframes id={"wireframe_section"} />

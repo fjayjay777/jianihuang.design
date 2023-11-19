@@ -9,15 +9,18 @@ function ProjectBrief({ id }) {
           Project Problem Statement
         </h2>
         <article
-          className="leading-9 tracking-wide rounded-xl text-start"
+          className="leading-9 tracking-wide text-start"
           style={{ fontFamily: "Helvetica" }}
         >
           <p>
-            To ensure an engaging and interactive user experience in today's
-            social creation development, it is imperative to address the issues
-            of minimal, outdated content and the absence of social features in
-            some applications. Users now require a well-structured platform that
-            empowers them to both browse and share their content effectively.
+            The current applications in the market cannot meet the users' demand
+            for sharing recipes, and there is no place for users to engage in
+            discussions. Most recipe apps merely serve as electronic collections
+            of recipes, with almost all content controlled by the manufacturers.
+            Users are unable to provide feedback for other users to distinguish
+            the quality of recipes. Additionally, the search and recommendation
+            systems in most recipe apps cannot be customized according to users'
+            individual preferences.
           </p>
         </article>
       </div>
@@ -29,7 +32,7 @@ function ProjectBrief({ id }) {
           Project Goal
         </h2>
         <article
-          className="leading-9 tracking-wide rounded-xl text-start"
+          className="leading-9 tracking-wide text-start"
           style={{ fontFamily: "Helvetica" }}
         >
           <p>
@@ -39,9 +42,9 @@ function ProjectBrief({ id }) {
             and generate profits from their work. The establishment of Sizzle
             not only enhances users' internet experience and opportunities for
             interaction but also aligns with the contemporary trends in the age
-            of self-media, making people's lives more convenient. It seamlessly
-            integrates daily routines with the internet, promoting a regular,
-            efficient, and worry-free lifestyle.
+            of social medias, making people's lives more convenient. It
+            seamlessly integrates daily routines with the internet, promoting a
+            regular, efficient, and worry-free lifestyle.
           </p>
         </article>
       </div>
