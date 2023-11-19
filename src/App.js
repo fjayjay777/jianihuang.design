@@ -1,4 +1,4 @@
-import "./app.css";
+import "./App.css";
 import Sizzle from "./features/sizzle/pages/index";
 
 function App() {
